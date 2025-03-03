@@ -50,11 +50,6 @@ This project automates the process of extracting abandoned call data from a data
      5 * * * * /path/to/notification_script.sh >> /var/log/notification.log 2>&1
      ```
 
-## Security Considerations
-- Do **NOT** expose API tokens or database credentials publicly.
-- Use environment variables or configuration files for sensitive information.
-- Restrict SSH access and implement firewall rules.
-
 ## Testing
 1. Run the extraction script manually:
    ```bash
